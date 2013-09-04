@@ -163,7 +163,7 @@ add_action( 'admin_enqueue_scripts', 'convention_admin_enqueue' );
 // 控制摘要的长度
 
 function custom_excerpt_length( $length ) {
-	return 200;
+	return 110;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
  ?>

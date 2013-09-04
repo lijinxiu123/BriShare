@@ -14,7 +14,7 @@
 
 <?php if ( has_post_thumbnail() ) { ?><div class="post-thumbnail"><a href="<?php esc_url( the_permalink() ); ?>"><?php the_post_thumbnail(); ?></a></div><?php } ?>
 
-<?php the_content( __( '阅读全文 &rarr;', 'convention' ) ); ?>
+<?php the_excerpt(); ?>
 
 <div class="clear"></div>
 
